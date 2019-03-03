@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"KickedClient"
+	{
+		"en"		"You have been kicked for using +left +right binds"
+	}
+	"BannedClient"
+	{
+		"#format"	"{1:d}"
+		
+		"en"		"You have been banned for {1} minutes for using +left +right binds"
+	}
+	"BannedClientForMinute"
+	{
+		"#format"	"{1:d}"
+		
+		"en"		"You have been banned for {1} minute for using +left +right binds"
+	}
+	"BannedClientPerm"
+	{
+		"en"		"You have been banned permanently for using +left +right binds"
+	}
+}
