@@ -22,7 +22,7 @@ public Plugin myinfo =
 public void OnPluginStart()
 {
 	g_Method = CreateConVar("sm_cheat_block_method", "1", "Block method? 0 = ban, 1 = kick.", _, true, 0.0, true, 2.0);
-	g_Time = CreateConVar("sm_cheat_block_bantime", "30", "If sm_cheat_block_method is 2, ban time? 0 = permanent.", _, true, 0.0, false);
+	g_Time = CreateConVar("sm_cheat_block_bantime", "30", "If sm_cheat_block_method is 0, ban time? 0 = permanent.", _, true, 0.0, false);
 	
 	AutoExecConfig();
 	LoadTranslations("BlockRotationKeys.phrases");
